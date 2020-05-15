@@ -1,0 +1,3 @@
+bin/*.exe
+src/obj/*.o
+.vscode/settings.json
