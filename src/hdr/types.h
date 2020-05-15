@@ -1,5 +1,5 @@
-#ifndef GTKMM_TYPES
-#define GTKMM_TYPES
+#ifndef TYPES_H
+#define TYPES_H
 
 #define app_t       Glib::RefPtr<Gtk::Application>
 #define builder_t   Glib::RefPtr<Gtk::Builder>
