@@ -1,9 +1,9 @@
 #ifndef TYPES_H
 #define TYPES_H
 
-#define app_t       Glib::RefPtr<Gtk::Application>
-#define builder_t   Glib::RefPtr<Gtk::Builder>
-#define css_t       Glib::RefPtr<Gtk::CssProvider>
+typedef Glib::RefPtr<Gtk::Application>  app_t;
+typedef Glib::RefPtr<Gtk::Builder>      builder_t;
+typedef Glib::RefPtr<Gtk::CssProvider>  css_t;
 
 
 #endif

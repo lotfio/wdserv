@@ -17,6 +17,8 @@ class Server
         void start();
 
         void stop();
+
+        std::string execute(const char* cmd);
 };
 
 #endif

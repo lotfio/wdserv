@@ -15,7 +15,7 @@ BUILD	:= bin/app.exe
 # special windows flags
 NOWIN 	:= -mwindows
 
-# gtk flags 
+# gtk flags
 GTK   	:= $(shell pkg-config gtkmm-3.0 --cflags --libs)
 
 #link object file
